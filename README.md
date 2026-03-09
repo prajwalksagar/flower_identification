@@ -80,19 +80,5 @@ This is how our CNN architecture looks like !
 
 ![matrix.png](./assets/matrix.png)
 
-Note that, 0,1,2,3,4 values in this matrix means daisies, dandelions, roses, sunflowers, tulips respectively
-- Our confusion matrix indicates that a lot of prediction errors came from distinguishing between rose and tulip.
-#### Model Deployment
-Given the impressive results we obtained, we are going to deploy our model using django framework in python. Our simple web app will allow us to identify a plant by loading it, then we can easily see its type (or classe) accompanied by a measure of certainty (Probability).
-here you can see how our web app interface looks like:
-
-![webapp.PNG](./assets/webapp.PNG)
-
-You can find the source code [here](https://github.com/zekaouinoureddine/Plants_Identification_DL_Model_Deployment_Django)!
-### Author Info
-
-- LinkedIn - [Nour Eddine ZEKAOUI](https://www.linkedin.com/in/nour-eddine-zekaoui-ba43b1177/)
-- Twitter - [@NZekaoui](https://twitter.com/NZekaoui)
-#### Thank you for your intrest ☻
 
 [BACK TO THE TOP](#plants-identification-by-deep-learning)
